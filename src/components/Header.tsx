@@ -4,16 +4,17 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div>
-            <h1>Deniz Yavuzkaya</h1>
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+
+        <header className="header">
+            <div className="header-content">
+                <h1 className="name">Deniz Yavuzkaya</h1>
+                <nav className="nav">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
     );
 };
 export default Header;
