@@ -1,6 +1,8 @@
 // @ts-ignore
 import React from 'react';
 
+import '../styles/global.css';
+import '../styles/Header.module.css';
 
 const Header = () => {
     return (
